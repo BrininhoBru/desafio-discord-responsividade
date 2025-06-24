@@ -1,0 +1,320 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy:400|Open+Sans:400,800");
+
+* {
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0px;
+    height: 100%;
+}
+
+button:focus-visible {
+    outline: 2px solid #4a90e2 !important;
+    outline: -webkit-focus-ring-color auto 5px !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.discord-home-page {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.discord-home-page .div {
+    background-color: #ffffff;
+}
+
+.discord-home-page .section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 40px 0px;
+    position: absolute;
+    top: 1909px;
+    left: 0;
+    background-color: #f6f6f6;
+}
+
+.discord-home-page .text-wrapper {
+    position: relative;
+    width: 608px;
+    margin-top: -1.00px;
+    font-family: "Luckiest Guy", Helvetica;
+    font-weight: 400;
+    color: #23272a;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.discord-home-page .p {
+    position: relative;
+    width: 802px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 400;
+    color: #23272a;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.discord-home-page .section-image {
+    position: relative;
+    width: 784px;
+    height: 508px;
+    object-fit: cover;
+}
+
+.discord-home-page .section-2 {
+    display: flex;
+    width: 100%;
+    height: 448px;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    position: absolute;
+    top: 1421px;
+    left: 0;
+}
+
+.discord-home-page .img {
+    position: relative;
+    width: 607px;
+    height: 394px;
+    object-fit: cover;
+}
+
+.discord-home-page .section-text {
+    position: relative;
+    width: 355px;
+    height: 234px;
+}
+
+.discord-home-page .text-wrapper-2 {
+    position: absolute;
+    width: 348px;
+    top: 124px;
+    left: 3px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 400;
+    color: #23272a;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.discord-home-page .text-wrapper-3 {
+    position: absolute;
+    width: 329px;
+    top: 0;
+    left: 0;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 800;
+    color: #23272a;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.discord-home-page .section-3 {
+    display: flex;
+    width: 100%;
+    height: 448px;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    position: absolute;
+    top: 933px;
+    left: 0;
+    background-color: #f6f6f6;
+}
+
+.discord-home-page .section-text-2 {
+    position: relative;
+    width: 355px;
+    height: 212px;
+}
+
+.discord-home-page .section-4 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    position: relative;
+    top: 499px;
+    width: 100%;
+}
+
+.discord-home-page .section-text-3 {
+    position: relative;
+    width: 352px;
+    height: 374px;
+    margin-right: -4.00px;
+}
+
+.discord-home-page .text-wrapper-4 {
+    position: absolute;
+    width: 348px;
+    top: 286px;
+    left: 0;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 400;
+    color: #23272a;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.discord-home-page .header {
+    position: absolute;
+    width: 100%;
+    height: 459px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    background-image: url(img/header.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.discord-home-page .header-content {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    position: relative;
+    top: 94px;
+    width: 100%;
+}
+
+.discord-home-page .text-wrapper-5 {
+    position: relative;
+    width: 313px;
+    margin-top: -1.00px;
+    font-family: "Luckiest Guy", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 56px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.discord-home-page .text-wrapper-6 {
+    position: relative;
+    width: 757px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.discord-home-page .buttons {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.discord-home-page .button {
+    all: unset;
+    box-sizing: border-box;
+    position: relative;
+    width: 207px;
+    height: 44px;
+}
+
+.discord-home-page .overlap-group {
+    width: 205px;
+    background-color: #ffffff;
+    position: relative;
+    height: 44px;
+    border-radius: 28px;
+}
+
+.discord-home-page .text-wrapper-7 {
+    position: absolute;
+    top: 11px;
+    left: 23px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 400;
+    color: #23272a;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.discord-home-page .overlap-wrapper {
+    position: relative;
+    width: 283px;
+    height: 44px;
+    margin-right: -2.00px;
+}
+
+.discord-home-page .overlap {
+    width: 281px;
+    background-color: #23272a;
+    position: relative;
+    height: 44px;
+    border-radius: 28px;
+}
+
+.discord-home-page .text-wrapper-8 {
+    position: absolute;
+    top: 11px;
+    left: 16px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.discord-home-page .frame {
+    position: absolute;
+    width: 100%;
+    height: 134px;
+    top: 2658px;
+    left: 0;
+    background-color: #23272a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discord-home-page .svgexport {
+    position: relative;
+    width: 230px;
+    height: 63px;
+    top: 35px;
+}
+
+.discord-home-page .group {
+    position: absolute;
+    width: 230px;
+    height: 43px;
+    top: 9px;
+    left: 0;
+}
